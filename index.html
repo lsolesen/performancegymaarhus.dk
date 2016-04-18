@@ -1,3 +1,6 @@
+---
+title: home
+---
 <!doctype html>
 <html lang="en-US">
 	<head>
@@ -8,9 +11,9 @@
 		<meta name="Author" content="Lars Olesen [larsolesen.dk]" />
 
 		<!--[if lt IE 9]>
-			<script type="text/javascript" src="bower_components/html5shiv/html5shiv.min.js"></script>
-			<script type="text/javascript" src="bower_components/respond/dest/respond.min.js"></script>
-			<script type="text/javascript" src="bower_components/excanvas/excanvas.js"></script>
+			<script type="text/javascript" src="assets/js/html5shiv.min.js"></script>
+			<script type="text/javascript" src="assets/js/respond.min.js"></script>
+			<script type="text/javascript" src="assets/js/excanvas.js"></script>
 		<![endif]-->
 
 		<!-- GOOGLE FONTS -->
@@ -22,8 +25,8 @@
 		<link href="assets/plugins/font-linecons/linecons.css" rel="stylesheet" type="text/css" />
 
 		<!-- PLUGINS -->
-		<link href="bower_components/superslides/dist/stylesheets/superslides.css" rel="stylesheet" type="text/css" />
-		<link href="bower_components/owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/superslides.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
 
 		<!-- CSS TEMPLATE -->
 		<link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
@@ -42,105 +45,11 @@
 		<!-- Morenizr -->
 		<script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
 
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','//connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '481765978651467');
-fbq('track', "PageView");</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-
 	</head>
 	<body>
+    {% include facebook-pixel.html %}
 
-		<!-- HOME -->
-		<section id="home" class="full-screen"><!-- full-screen or half-screen (550px height) -->
-
-			<div id="slider">
-
-				<!-- slider navigation -->
-				<nav class="slides-navigation">
-					<a class="prev" href="#"></a>
-					<a class="next" href="#"></a>
-				</nav>
-
-				<ul class="slides-container">
-
-					<!-- Item 1 -->
-					<li>
-						<div class="image-caption">
-							<hr /><hr />
-							<div class="inner">
-								<h2 class="bigtext strtoupper nomargin">Træning</h2>
-								<p>med resultater for alle</p>
-							</div>
-							<hr /><hr />
-						</div>
-
-						<span class="overlay"></span>
-						<div style="background-image: url('assets/images/slide-1.jpg');" class="fullscreen-img"></div>
-					</li>
-
-				  	<!-- Item 2 -->
-					<li>
-						<div class="image-caption">
-							<hr /><hr />
-							<div class="inner">
-								<h2 class="bigtext strtoupper nomargin">Træning</h2>
-								<p>med resultater for alle</p>
-							</div>
-							<hr /><hr />
-						</div>
-
-						<span class="overlay"></span>
-						<div style="background-image: url('assets/images/slide-2.jpg');" class="fullscreen-img"></div>
-					</li>
-
-				  	<!-- Item 3 -->
-					<li>
-						<div class="image-caption">
-							<hr /><hr />
-							<div class="inner">
-								<h2 class="bigtext strtoupper nomargin">Træning</h2>
-								<p>med resultater for alle</p>
-							</div>
-							<hr /><hr />
-						</div>
-
-						<span class="overlay"></span>
-						<div style="background-image: url('assets/images/slide-3.jpg');" class="fullscreen-img"></div>
-					</li>
-
-          				<!-- Item 4 -->
-					<li>
-						<div class="image-caption">
-							<hr /><hr />
-							<div class="inner">
-								<h2 class="bigtext strtoupper nomargin">Træning</h2>
-								<p>med resultater for alle</p>
-							</div>
-							<hr /><hr />
-						</div>
-
-						<span class="overlay"></span>
-						<div style="background-image: url('assets/images/slide-4.jpg');" class="fullscreen-img"></div>
-					</li>
-
-				</ul>
-
-			</div>
-
-		</section>
-		<!-- /HOME -->
-
-
+    {% include slides.html %}
 
 		<!-- Main Nav -->
 		<header id="header">
@@ -154,7 +63,7 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 						<a class="navbar_brand scrollTo" href="#home">
-							<img src="assets/images/pg-logo.png" alt="" width="122" height="50" /> 
+							<img src="assets/images/pg-logo.png" alt="PerformanceGym Århus" width="122" height="50" />
 							<!--
 								Span class:
 									- dark
@@ -201,7 +110,7 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
           				<p>Vi har kvalitetsudstyr fra Watson, Hammer Strength, Atlantis og Eleiko, som sætter rammerne for en god træning, og vores professionelle personale står klar med vejledning og service på allerhøjeste niveau.</p>
 				</article>
 
-        			<header class="text-center" id="pt">
+        <header class="text-center" id="pt">
 					<h1>Personlig træning</h1>
 				</header>
 
@@ -212,163 +121,8 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
           				<p>Hvis du vil høre nærmere om hvad vi kan gøre for netop dig, kan du altid booket et uforpligtende møde på aarhus@performancegym.dk - Så finder vi præcis den træner som passer til dig og din målsætning.</p>
 				</article>
 
-				<div class="me-picture text-center animate_fade_in">
+        {% include pts.html %}
 
-					<!-- ITEM -->
-					<div class="item">
-
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-							<a target="_blank" href="http://www.casperjespersen.dk" class="social fa fa-wordpress"></a>
-							<a target="_blank" href="http://www.instagram.com/casperjespersendk" class="social fa fa-instagram"></a>
-						</span>
-
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/casper-jespersen.jpg" width="200" height="200" alt="" />
-
-						<!-- name -->
-						<div class="member-name">
-							<h3>
-								Casper Jespersen
-								<small>Ejer og seniortræner</small>
-							</h3>
-						</div>
-
-					</div>
-					<!-- /ITEM -->
-
-					<!-- ITEM -->
-					<div class="item">
-
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-							<a target="_blank" href="http://www.birgittelarsen.dk" class="social fa fa-wordpress"></a>
-              						<a target="_blank" href="http://www.instagram.com/birgittelarsendk" class="social fa fa-instagram"></a>
-						</span>
-
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/birgitte-larsen.jpg" width="200" height="200" alt="" />
-
-						<!-- name -->
-						<div class="member-name">
-							<h3>
-								Birgitte Larsen
-								<small>Ejer og seniortræner</small>
-							</h3>
-						</div>
-
-					</div>
-					<!-- /ITEM -->
-
-	                                <!-- ITEM -->
-					<div class="item">
-
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-							<a target="_blank" href="http://www.levsundt.com" class="social fa fa-wordpress"></a>
-							<a target="_blank" href="http://www.instagram.com/susanmilo" class="social fa fa-instagram"></a>
-						</span>
-
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/susan-milo.jpg" width="200" height="200" alt="" />
-
-						<!-- name -->
-						<div class="member-name">
-							<h3>
-								Susan Milo
-								<small>Juniortræner</small>
-							</h3>
-						</div>
-
-					</div>
-					<!-- /ITEM -->
-          				<!-- ITEM -->
-					<div class="item">
-
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-							<a target="_blank" href="http://www.instagram.com/annekathrineoestergaard" class="social fa fa-instagram"></a>
-						</span>
-
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/anne-kathrine.jpg" width="200" height="200" alt="" />
-
-						<!-- name -->
-						<div class="member-name">
-							<h3 style="font-size:0.7em;">
-								Anne-Kathrine Østergaard
-								<small>Juniortræner</small>
-							</h3>
-						</div>
-
-					</div>
-					<!-- /ITEM -->
-
-          				<!-- ITEM -->
-					<div class="item">
-
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-              						<a target="_blank" href="http://www.jannikfriis.dk" class="social fa fa-wordpress"></a>
-							<a target="_blank" href="http://www.instagram.com/jannikfriisdk" class="social fa fa-instagram"></a>
-						</span>
-
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/jannik.jpg" width="200" height="200" alt="" />
-
-						<!-- name -->
-						<div class="member-name">
-							<h3>
-								Jannik Friis
-								<small>Juniortræner</small>
-							</h3>
-						</div>
-
-					</div>
-					<!-- /ITEM -->
-          				<!-- ITEM -->
-					<div class="item">
-
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-							<a target="_blank" href="http://www.instagram.com/helenehargaard" class="social fa fa-instagram"></a>
-						</span>
-
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/helene.jpg" width="200" height="200" alt="" />
-
-						<!-- name -->
-						<div class="member-name">
-							<h3>
-								Helene Hargaard
-								<small>Juniortræner</small>
-							</h3>
-						</div>
-
-					</div>
-					<!-- /ITEM -->
-          				<!-- ITEM -->
-					<div class="item">
-
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-							<a target="_blank" href="http://www.instagram.com/kasperwolf" class="social fa fa-instagram"></a>
-						</span>
-
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/kasper-wolf.jpg" width="200" height="200" alt="Kasper Wolf" />
-
-						<!-- name -->
-						<div class="member-name">
-							<h3>
-								Kasper Wolf
-								<small>Juniortræner</small>
-							</h3>
-						</div>
-
-					</div>
-					<!-- /ITEM -->
-        			</div>
 			</div>
 		</section>
 		<!-- /ABOUT -->
@@ -436,10 +190,10 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
       </div>
     </section>
 
-    		<!-- GOOGLE MAP -->
+    <!-- GOOGLE MAP -->
 		<section id="googleMap" class="noindicator nomargin nopadding">
 			<div class="container" id="contact">
-				<address class="animate_fade_in">
+				<div class="address-div animate_fade_in">
 					<strong class="font-dosis fsize20">KONTAKT OS</strong>
 					<ul>
 						<li class="address-sprite address">
@@ -455,7 +209,7 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
 							aarhus@performancegym.dk
 						</li>
 					</ul>
-				</address>
+				</div>
 			</div>
 
 			<div id="gmap"></div>
@@ -467,7 +221,7 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
 		<footer>
 
 			<!-- SCROOL TO TOP -->
-			<a href="#toTop" class="fa fa-arrow-up toTop"></a>
+			<a href="#header" class="fa fa-arrow-up toTop"></a>
 
 			<div class="container">
 
@@ -481,7 +235,7 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
 					<div class="col-md-6 text-right">
 						<a href="https://www.facebook.com/Performancegymaarhus" class="social fa fa-facebook"></a>
 						<a href="https://plus.google.com/100986272947497000334" class="social fa fa-google-plus"></a>
-            					<a href="https://www.instagram.com/performancegymaarhus" class="social fa fa-instagram"></a>
+            <a href="https://www.instagram.com/performancegymaarhus" class="social fa fa-instagram"></a>
 					</div>
 
 				</div>
@@ -494,12 +248,12 @@ src="https://www.facebook.com/tr?id=481765978651467&ev=PageView&noscript=1"
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js"></script>
-		<script type="text/javascript" src="bower_components/masonry/masonry.js"></script>
+		<script type="text/javascript" src="assets/js/masonry.js"></script>
 
 		<!-- PLUGINS -->
 		<script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
-		<script type="text/javascript" src="bower_components/superslides/dist/jquery.superslides.min.js"></script>
-		<script type="text/javascript" src="bower_components/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.superslides.min.js"></script>
+		<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 
 		<!-- js scripts -->
 		<script async type="text/javascript" src="assets/js/scripts.js"></script>

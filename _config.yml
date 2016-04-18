@@ -1,1 +1,24 @@
-exclude: [vendor]
+# Site settings
+title: PerformanceGym Århus
+email: cj@performancegymaarhus.dk
+phone: "+45 2241 6614"
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Other settings
+timezone: Europe/Copenhagen
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "vendor"
+  - "node_modules"
+
+# Build settings
+kramdown:
+  input: GFM
+  parse_block_html: true
+  remove_block_html_tags: true
+
+sass:
+  style: compressed

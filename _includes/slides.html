@@ -1,0 +1,32 @@
+		<!-- HOME -->
+		<section id="home" class="full-screen"><!-- full-screen or half-screen (550px height) -->
+
+			<div id="slider">
+
+				<!-- slider navigation -->
+				<nav class="slides-navigation">
+					<a class="prev" href="#" data-proofer-ignore></a>
+					<a class="next" href="#" data-proofer-ignore></a>
+				</nav>
+
+				<ul class="slides-container">
+          {% for slide in site.data.slides %}
+					<!-- Item -->
+					<li>
+						<div class="image-caption">
+							<hr /><hr />
+							<div class="inner">
+								<h2 class="bigtext strtoupper nomargin">{{ slide.headline }}</h2>
+								<p>{{ slide.sub-heading }}</p>
+							</div>
+							<hr /><hr />
+						</div>
+
+						<span class="overlay"></span>
+						<div style="background-image: url('assets/images/{{ slide.image }}');" class="fullscreen-img"></div>
+					</li>
+          {% endfor %}
+				</ul>
+			</div>
+		</section>
+		<!-- /HOME -->
