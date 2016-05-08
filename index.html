@@ -2,61 +2,20 @@
 layout: default
 title: Performance Gym Aarhus - Træning med resultater for alle
 description: Træningscenter med skræddersyet resultatorienteret træning og fantastisk sammenhold mellem medlemmerne. Træning og motivation.
+slides:
+  - headline: Træning
+    sub-heading: med resultater for alle
+    image: slide-1.jpg
+  - headline: Træning
+    sub-heading: med resultater for alle
+    image: slide-2.jpg
+  - headline: Træning
+    sub-heading: med resultater for alle
+    image: slide-3.jpg
+  - headline: Træning
+    sub-heading: med resultater for alle
+    image: slide-4.jpg
 ---
-
-{% include slides.html %}
-
-<!-- Main Nav -->
-<header id="header">
-
-  <nav class="navbar navbar-inverse" role="navigation">
-    <!-- add "wihite" class for white nav bar -->
-    <div class="container">
-
-      <!-- Mobile Menu Button -->
-      <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
-
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <a class="navbar_brand scrollTo" href="#home">
-          <img src="assets/images/pg-logo.png" alt="PerformanceGym Århus" width="122" height="50" />
-          <!--
-								Span class:
-									- dark
-									- white
-									- styleColor (if you select "green" style color, the color will be green).
-
-									You can combine them 
-									Example:
-										<span class="white">ISIS</span><span class="styleColor">ONE</span>
-							-->
-          <span class="">P<span class="responsive-hide">ERFORMANCE </span>G<span class="responsive-hide">YM</span> Aarhus</span>
-        </a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about" class="scrollTo">Om</a>
-          </li>
-          <li><a href="#pt" class="scrollTo">Personlig træning</a>
-          </li>
-          <li><a href="#open" class="scrollTo">Åbningstider</a>
-          </li>
-          <li><a href="#prices" class="scrollTo">Priser</a>
-          </li>
-          <li><a href="#contact" class="scrollTo">Kontakt</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-
-    </div>
-  </nav>
-
-</header>
-<!-- /Main Nav -->
 
 <!-- ABOUT -->
 <section id="about">
@@ -84,7 +43,7 @@ description: Træningscenter med skræddersyet resultatorienteret træning og fa
 
     <article class="text-center big-paragraph">
       <p>I Performance Gym har vi ansat flere personlige trænere, der alle kan tilbyde noget unikt. Alle vores trænere er internationalt uddannet og sigter efter konstant at forbedre deres niveau. Derfor vil du opleve resultater som ikke før set - De absolut ekstraordinære resultater er hvad vi sigter efter ved hver eneste klient vi modtager.
-      <p>Hvis du vil høre nærmere om hvad vi kan gøre for netop dig, kan du altid booket et uforpligtende møde på aarhus@performancegym.dk - Så finder vi præcis den træner som passer til dig og din målsætning.</p>
+      <p>Hvis du vil høre nærmere om hvad vi kan gøre for netop dig, kan du altid booket et uforpligtende møde på {{ site.email }} - Så finder vi præcis den træner som passer til dig og din målsætning.</p>
     </article>
 
     {% include pts.html %}
@@ -102,7 +61,7 @@ description: Træningscenter med skræddersyet resultatorienteret træning og fa
     </header>
 
     <article class="text-center">
-      <h2>+45 2130 2130</h2>
+      <h2>{{ site.phone }}</h2>
       <p>RING I DAG - eller - <a href="#contact" class="scrollTo">SKRIV EN E-MAIL</a>
       </p>
     </article>
@@ -171,10 +130,10 @@ description: Træningscenter med skræddersyet resultatorienteret træning og fa
           <br />
         </li>
         <li class="address-sprite phone">
-          Telefon: +45 2130 2130
+          Telefon: {{ site.phone }}
         </li>
         <li class="address-sprite email">
-          aarhus@performancegym.dk
+          {{ site.email }}
         </li>
       </ul>
     </div>

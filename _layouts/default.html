@@ -49,6 +49,62 @@
 
   {% include facebook-pixel.html %}
 
+  {% if page.slides %}
+    {% include slides.html %}
+  {% endif %}
+
+  <!-- Main Nav -->
+  <header id="header">
+
+    <nav class="navbar navbar-inverse" role="navigation">
+      <!-- add "wihite" class for white nav bar -->
+      <div class="container">
+
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar_brand scrollTo" href="#home">
+            <img src="assets/images/pg-logo.png" alt="PerformanceGym Århus" width="122" height="50" />
+            <!--
+                  Span class:
+                    - dark
+                    - white
+                    - styleColor (if you select "green" style color, the color will be green).
+
+                    You can combine them 
+                    Example:
+                      <span class="white">ISIS</span><span class="styleColor">ONE</span>
+                -->
+            <span class="">P<span class="responsive-hide">ERFORMANCE </span>G<span class="responsive-hide">YM</span> Aarhus</span>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="scrollTo">Om</a>
+            </li>
+            <li><a href="#pt" class="scrollTo">Personlig træning</a>
+            </li>
+            <li><a href="#open" class="scrollTo">Åbningstider</a>
+            </li>
+            <li><a href="#prices" class="scrollTo">Priser</a>
+            </li>
+            <li><a href="#contact" class="scrollTo">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+
+      </div>
+    </nav>
+
+  </header>
+  <!-- /Main Nav -->
+
   {{ content }}
 
   <!-- FOOTER -->
@@ -99,7 +155,7 @@
   </script>
   <script type="text/javascript">
     try {
-      var pageTracker = _gat._getTracker("UA-58650727-1");
+      var pageTracker = _gat._getTracker("{{ site.google_analytics_code }}");
       pageTracker._trackPageview();
     } catch(err) {}
   </script>
