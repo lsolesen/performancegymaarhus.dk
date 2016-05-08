@@ -1,29 +1,29 @@
-				<div class="me-picture text-center animate_fade_in">
-          {% for pt in site.data.pts %}
-					<!-- ITEM -->
-					<div class="item">
+<div class="me-picture text-center animate_fade_in">
+  {% for pt in site.data.pts %}
+  <!-- ITEM -->
+  <div class="item">
 
-						<!-- social icons -->
-						<span class="socials animated bounceIn">
-              {% if pt.website %}
-              <a target="_blank" href="{{ pt.website }}" class="social fa fa-wordpress"></a>
-              {% endif %}
-              {% if pt.instagram %}
-              <a target="_blank" href="{{ pt.instagram }}" class="social fa fa-instagram"></a>
-              {% endif %}
-            </span>
+    <!-- social icons -->
+    <span class="socials animated bounceIn">
+      {% if pt.website %}
+        <a target="_blank" href="{{ pt.website }}" class="social fa fa-wordpress"></a>
+      {% endif %}
+      {% if pt.instagram %}
+        <a target="_blank" href="{{ pt.instagram }}" class="social fa fa-instagram"></a>
+      {% endif %}
+    </span>
 
-						<!-- image -->
-						<img class="img-responsive" src="assets/images/pt/{{ pt.image }}" width="200" height="200" alt="{{ pt.name }} - {{ pt.title }}" />
+    <!-- image -->
+    <img class="img-responsive" src="assets/images/pt/{{ pt.image }}" width="200" height="200" alt="{{ pt.name }} - {{ pt.title }}" />
 
-						<!-- name -->
-						<div class="member-name">
-							<h3>
-								{{ pt.name }}
-								<small>{{ pt.title }}</small>
-							</h3>
-						</div>
-					</div>
-					<!-- /ITEM -->
-          {% endfor %}
-        </div>
+    <!-- name -->
+    <div class="member-name">
+      <h3>
+        {{ pt.name }}
+				<small>{{ pt.title }}</small>
+		  </h3>
+    </div>
+  </div>
+  <!-- /ITEM -->
+  {% endfor %}
+</div>
