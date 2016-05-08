@@ -53,11 +53,12 @@
     {% include slides.html %}
   {% endif %}
 
+
   <!-- Main Nav -->
   <header id="header">
 
     <nav class="navbar navbar-inverse" role="navigation">
-      <!-- add "wihite" class for white nav bar -->
+      <!-- add "white" class for white nav bar -->
       <div class="container">
 
         <!-- Mobile Menu Button -->
@@ -65,7 +66,7 @@
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <a class="navbar_brand scrollTo" href="#home">
+          <a class="navbar_brand scrollTo" href="/#home">
             <img src="assets/images/pg-logo.png" alt="PerformanceGym Århus" width="122" height="50" />
             <!--
                   Span class:
@@ -86,7 +87,7 @@
 
           <ul class="nav navbar-nav navbar-right">
             {% for nav in site.data.navigation %}
-            <li><a href="{{ nav.url }}" class="scrollTo">{{ nav.text }}</a></li>
+            <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
             {% endfor %}
           </ul>
         </div>
