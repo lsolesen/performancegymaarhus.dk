@@ -20,4 +20,4 @@ steps:
   - name: Build site with Jekyll
     plugin: Script
     script:
-      - LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 bundle exec jekyll serve --host 0.0.0.0 --incremental --destination=/var/www/html > /dev/null 2>&1 &
+      - LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 bundle exec jekyll serve --detach --host 0.0.0.0 --incremental --destination=/var/www/html
