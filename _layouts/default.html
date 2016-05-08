@@ -73,7 +73,7 @@
                     - white
                     - styleColor (if you select "green" style color, the color will be green).
 
-                    You can combine them 
+                    You can combine them
                     Example:
                       <span class="white">ISIS</span><span class="styleColor">ONE</span>
                 -->
@@ -85,16 +85,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about" class="scrollTo">Om</a>
-            </li>
-            <li><a href="#pt" class="scrollTo">Personlig træning</a>
-            </li>
-            <li><a href="#open" class="scrollTo">Åbningstider</a>
-            </li>
-            <li><a href="#prices" class="scrollTo">Priser</a>
-            </li>
-            <li><a href="#contact" class="scrollTo">Kontakt</a>
-            </li>
+            {% for nav in site.data.navigation %}
+            <li><a href="{{ nav.url }}" class="scrollTo">{{ nav.text }}</a></li>
+            {% endfor %}
           </ul>
         </div>
         <!-- /.navbar-collapse -->
