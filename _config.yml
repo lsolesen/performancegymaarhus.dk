@@ -1,6 +1,6 @@
 # Site settings
 title: PerformanceGym Århus
-email: aarhus@performancegymaarhus.dk
+email: aarhus@performancegym.dk
 phone: "+45 2241 6614"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/

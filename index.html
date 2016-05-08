@@ -116,29 +116,4 @@ slides:
   </div>
 </section>
 
-<!-- GOOGLE MAP -->
-<section id="googleMap" class="noindicator nomargin nopadding">
-  <div class="container" id="contact">
-    <div class="address-div animate_fade_in">
-      <strong class="font-dosis fsize20">KONTAKT OS</strong>
-      <ul>
-        <li class="address-sprite address">
-          Performance Gym Aarhus
-          <br />8000 Århus C
-          <br />Karupvej 1
-          <br />Danmark
-          <br />
-        </li>
-        <li class="address-sprite phone">
-          Telefon: {{ site.phone }}
-        </li>
-        <li class="address-sprite email">
-          {{ site.email }}
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div id="gmap"></div>
-</section>
-<!-- GOOGLE MAP -->
+{% include map.html %}
