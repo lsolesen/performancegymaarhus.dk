@@ -10,10 +10,24 @@ slides:
     image: slide-2.jpg
 ---
 
-<section id="prices" class="alternate">
+<section class="container">
+  <header class="text-center">
+	  <h1>Priser i Performance Gym Aarhus</h1>
+  </header>
+
+    <div class="divider">
+      <!-- lines divider -->
+    </div>
+
+    <article class="text-center big-paragraph">
+      <p>Vil du være medlem af det ideelle træningscenter for udvikling af optimale resultater. Vi tilbyder skræddersyet resultatorienteret træning til den kræsne kunde! Der er et fantastisk sammenhold iblandt medlemmerne, som skaber en motiverende stemning i centeret.</p>
+    </article>
+</section>
+
+<section class="alternate">
   <div class="container">
     <header class="text-center">
-      <h1>Priser</h1>
+      <h2>Priser for medlemsskab</h2>
     </header>
 
     <table class="table">
@@ -35,4 +49,31 @@ slides:
 
 {% include call-now.html %}
 
-{% include map.html %}
+<!-- PRICE TABLE -->
+<section>
+  <div class="container">
+    <header class="text-center">
+		  <h2>Priser for personlig træning med seniortræner</h2>
+		</header>
+    <div class="divider"><!-- lines divider --></div>
+    {% include pt-prices.html tag="senior" %}
+
+    <section id="about">
+    {% include pts.html tag="senior" %}
+    </section>
+
+    <header class="text-center">
+		  <h2>Priser for personlig træning med juniortræner</h2>
+		</header>
+
+    {% include pt-prices.html tag="junior" %}
+    <section id="about">
+    {% include pts.html tag="junior" %}
+    </section>
+	</div>
+</section>
+<!-- PRICE TABLE -->
+
+{% include call-now.html %}
+
+{% include contact-form.html %}

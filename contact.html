@@ -10,48 +10,7 @@ slides:
     image: slide-1.jpg
 slide-height: half-screen
 ---
-    <!-- CONTACT -->
-		<section id="contact">
-			<div class="container">
-				<header class="text-center">
-					<h1>Kontakt</h1>
-				</header>
 
-				<div class="divider"><!-- lines divider --></div>
-
-				<article>
-					<p class="text-center big-paragraph">
-						Skriv til os - om så bare for at sige <strong><em>Hej!</em></strong>
-						<small class="fsize15 block">
-							Skriv meget gerne til os for at høre mere om, <strong>personlig træning</strong> og <strong>medlemsskab</strong> i vores center. <br />
-							Du bliver ikke skuffet.
-						</small>
-					</p>
-				</article>
-
-				<article>
-
-					<!-- Form -->
-					<form id="contactForm" method="post" action="https://formspree.io/lsolesen@gmail.com" class="white block form-inline">
-            <input type="hidden" name="_next" value="/thankyou" />
-						<div class="row">
-							<div class="col-md-4"><input required class="fullwidth" type="text" name="name" id="contact_name" value="" placeholder="NAME *" title="Name" /></div>
-							<div class="col-md-4"><input required class="fullwidth" type="email" name="email" id="contact_email" value="" placeholder="EMAIL *" title="Email" /></div>
-							<div class="col-md-4"><input class="fullwidth" type="text" name="_subject" id="contact_subject" value="" placeholder="SUBJECT" title="subject" /></div>
-						</div>
-
-						<div class="row">
-							<div class="col-md-12"><textarea required class="fullwidth" rows="5" name="comment" id="contact_comment" placeholder="MESSAGE *"></textarea></div>
-							<div class="col-md-12">
-								<input type="submit" id="contact_submit" class="btn btn-default" value="SEND BESKED">
-							</div>
-						</div>
-					</form>
-
-				</article>
-
-			</div>
-		</section>
-		<!-- /CONTACT -->
+{% include contact-form.html %}
 
 {% include map.html %}

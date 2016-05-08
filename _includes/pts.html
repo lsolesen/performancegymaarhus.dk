@@ -1,5 +1,6 @@
 <div class="me-picture text-center animate_fade_in">
   {% for pt in site.data.pts %}
+  {% if include.tag contains pt.tag %}
   <!-- ITEM -->
   <div class="item">
 
@@ -25,5 +26,6 @@
     </div>
   </div>
   <!-- /ITEM -->
+  {% endif %}
   {% endfor %}
 </div>
