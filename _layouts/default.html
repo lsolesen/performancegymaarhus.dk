@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}" />
+  <meta name="Author" content="Lars Olesen [larsolesen.dk]" />
+
+  <!--[if lt IE 9]>
+			<script type="text/javascript" src="assets/js/html5shiv.min.js"></script>
+			<script type="text/javascript" src="assets/js/respond.min.js"></script>
+			<script type="text/javascript" src="assets/js/excanvas.js"></script>
+		<![endif]-->
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
+
+  <!-- CORE CSS FRAMEWORK -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/plugins/font-linecons/linecons.css" rel="stylesheet" type="text/css" />
+
+  <!-- PLUGINS -->
+  <link href="assets/css/superslides.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+
+  <!-- CSS TEMPLATE -->
+  <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/framework.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/typography.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+  <!-- ICONS -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+  <!-- mobile settings -->
+  <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+  <!-- Morenizr -->
+  <script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
+
+</head>
+
+<body>
+
+  {% include facebook-pixel.html %}
+
+  {% if page.slides %}
+    {% include slides.html %}
+  {% endif %}
+
+
+  <!-- Main Nav -->
+  <header id="header">
+
+    <nav class="navbar navbar-inverse" role="navigation">
+      <!-- add "white" class for white nav bar -->
+      <div class="container">
+
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar_brand scrollTo" href="/#home">
+            <img src="assets/images/pg-logo.png" alt="PerformanceGym Århus" width="122" height="50" />
+            <!--
+                  Span class:
+                    - dark
+                    - white
+                    - styleColor (if you select "green" style color, the color will be green).
+
+                    You can combine them
+                    Example:
+                      <span class="white">ISIS</span><span class="styleColor">ONE</span>
+                -->
+            <span class="">P<span class="responsive-hide">ERFORMANCE </span>G<span class="responsive-hide">YM</span> Aarhus</span>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            {% for nav in site.data.navigation %}
+            <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+
+      </div>
+    </nav>
+
+  </header>
+  <!-- /Main Nav -->
+
+  {{ content }}
+
+  <!-- FOOTER -->
+  <footer>
+
+    <!-- SCROOL TO TOP -->
+    <a href="#header" class="fa fa-arrow-up toTop"></a>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 copyright">
+          Performance Gym Aarhus
+          <br />2014 &copy; All Rights Reserved.
+        </div>
+
+        <div class="col-md-6 text-right">
+          <a href="https://www.facebook.com/Performancegymaarhus" class="social fa fa-facebook"></a>
+          <a href="https://plus.google.com/100986272947497000334" class="social fa fa-google-plus"></a>
+          <a href="https://www.instagram.com/performancegymaarhus" class="social fa fa-instagram"></a>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- /FOOTER -->
+
+  <!-- CORE FILES -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js"></script>
+  <script type="text/javascript" src="assets/js/masonry.js"></script>
+
+  <!-- PLUGINS -->
+  <script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.superslides.min.js"></script>
+  <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+
+  <!-- js scripts -->
+  <script async type="text/javascript" src="assets/js/scripts.js"></script>
+
+  <!-- Change UA-XXXXX-X with your site ID -->
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("{{ site.google_analytics_code }}");
+      pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+
+</body>
+
+</html>

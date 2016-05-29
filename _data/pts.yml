@@ -3,36 +3,45 @@
   instagram: http://www.instagram.com/casperjespersendk
   website: http://www.casperjespersen.dk
   image: casper-jespersen.jpg
+  tag: senior
 
 - name: Birgitte Larsen
   title: Ejer og seniortræner
   instagram: http://www.instagram.com/birgittelarsendk
   website: http://www.birgittelarsen.dk
   image: birgitte-larsen.jpg
+  tag: senior
 
 - name: Susan Milo
   title: Juniortræner
   instagram: http://www.instagram.com/susanmilo
   website: http://www.levsundt.com
   image: susan-milo.jpg
+  tag: junior
 
 - name: Anne-Kathrine Østergaard
   title: Juniortræner
   instagram: http://www.instagram.com/annekathrineoestergaard
   image: anne-kathrine.jpg
+  tag: junior
 
 - name: Jannik Friis
   title: Juniortræner
-  website: http://www.jannikfriis.dk
-  instagram: http://www.instagram.com/jannikfriisdk
+  website: http://jannikfriis.dk
+  instagram: http://www.instagram.com/personligtraeneraarhus
+  facebook: https://www.facebook.com/pt.jannikfriis/
   image: jannik.jpg
+  tag: junior
 
 - name: Helene Hargaard
   title: Juniortræner
   instagram: http://www.instagram.com/helenehargaard
   image: helene.jpg
+  tag: junior
 
 - name: Kasper Wolf
   title: Juniortræner
+  website: http://www.kasperwolf.dk
   instagram: http://www.instagram.com/kasperwolf
   image: kasper-wolf.jpg
+  tag: junior

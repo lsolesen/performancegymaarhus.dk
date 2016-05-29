@@ -1,0 +1,10 @@
+- url: "/#about"
+  text: Om
+- url: "/pt"
+  text: Personlig træning
+- url: "/#open"
+  text: Åbningstider
+- url: "/priser"
+  text: Priser
+- url: "/kontakt"
+  text: Kontakt

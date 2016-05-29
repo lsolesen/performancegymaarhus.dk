@@ -1,0 +1,16 @@
+				<!-- FOUR COLUMNS -->
+				<div class="row">
+          {% for package in site.data.pt-prices %}
+          {% if include.tag contains package.tag %}
+					<div class="col-md-3 price-table {{ package.class }}">
+						<h3>{{ package.package }}</h3>
+
+						<ul>
+              {% for price in package.prices %}
+							<li>{{ price }}</li>
+              {% endfor %}
+						</ul>
+					</div>
+          {% endif %}
+          {% endfor %}
+				</div>

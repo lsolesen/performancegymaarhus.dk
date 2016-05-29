@@ -1,0 +1,79 @@
+---
+layout: default
+title: Performance Gym Aarhus - Træning med resultater for alle
+description: Træningscenter med skræddersyet resultatorienteret træning og fantastisk sammenhold mellem medlemmerne. Træning og motivation.
+permalink: /priser
+slider-height: half-screen
+slides:
+  - headline: Træning
+    sub-heading: med resultater for alle
+    image: slide-2.jpg
+---
+
+<section class="container">
+  <header class="text-center">
+	  <h1>Priser i Performance Gym Aarhus</h1>
+  </header>
+
+    <div class="divider">
+      <!-- lines divider -->
+    </div>
+
+    <article class="text-center big-paragraph">
+      <p>Vil du være medlem af det ideelle træningscenter for udvikling af optimale resultater. Vi tilbyder skræddersyet resultatorienteret træning til den kræsne kunde! Der er et fantastisk sammenhold iblandt medlemmerne, som skaber en motiverende stemning i centeret.</p>
+    </article>
+</section>
+
+<section class="alternate">
+  <div class="container">
+    <header class="text-center">
+      <h2>Priser for medlemsskab</h2>
+    </header>
+
+    <table class="table">
+      <tr>
+        <th>Basis medlemsskab</th>
+        <td>350 kr / mdr.</td>
+      </tr>
+      <tr>
+        <th>Studerende</th>
+        <td>300 kr / mdr.</td>
+      </tr>
+      <tr>
+        <th>Oprettelsesgebyr</th>
+        <td>250 kr</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+{% include call-now.html %}
+
+<!-- PRICE TABLE -->
+<section>
+  <div class="container">
+    <header class="text-center">
+		  <h2>Priser for personlig træning med seniortræner</h2>
+		</header>
+    <div class="divider"><!-- lines divider --></div>
+    {% include pt-prices.html tag="senior" %}
+
+    <section id="about">
+    {% include pts.html tag="senior" %}
+    </section>
+
+    <header class="text-center">
+		  <h2>Priser for personlig træning med juniortræner</h2>
+		</header>
+
+    {% include pt-prices.html tag="junior" %}
+    <section id="about">
+    {% include pts.html tag="junior" %}
+    </section>
+	</div>
+</section>
+<!-- PRICE TABLE -->
+
+{% include call-now.html %}
+
+{% include contact-form.html %}
