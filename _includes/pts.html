@@ -15,6 +15,9 @@
       {% if pt.facebook %}
         <a target="_blank" href="{{ pt.facebook }}" class="social fa fa-facebook"></a>
       {% endif %}
+      {% if pt.email %}
+        <a href="mailto:{{ pt.email }}" class="social fa fa-envelope"></a>
+      {% endif %}
     </span>
 
     <!-- image -->

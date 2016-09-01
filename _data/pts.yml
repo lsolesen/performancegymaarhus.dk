@@ -2,6 +2,7 @@
   title: Ejer og seniortræner
   instagram: http://www.instagram.com/casperjespersendk
   website: http://www.casperjespersen.dk
+  email: cj@performancegym.dk
   image: casper-jespersen.jpg
   tag: senior
 
@@ -9,6 +10,7 @@
   title: Ejer og seniortræner
   instagram: http://www.instagram.com/birgittelarsendk
   website: http://www.birgittelarsen.dk
+  email: bml@performancegym.dk
   image: birgitte-larsen.jpg
   tag: senior
 
@@ -16,12 +18,14 @@
   title: Juniortræner
   instagram: http://www.instagram.com/susanmilo
   website: http://www.levsundt.com
+  email: sm@performancegym.dk
   image: susan-milo.jpg
   tag: junior
 
 - name: Anne-Kathrine Østergaard
   title: Juniortræner
   instagram: http://www.instagram.com/annekathrineoestergaard
+  email: ak@pgaa.dk
   image: anne-kathrine.jpg
   tag: junior
 
@@ -30,12 +34,14 @@
   website: http://jannikfriis.dk
   instagram: http://www.instagram.com/personligtraeneraarhus
   facebook: https://www.facebook.com/pt.jannikfriis/
+  email: jf@pgaa.dk
   image: jannik.jpg
   tag: junior
 
 - name: Helene Hargaard
   title: Juniortræner
   instagram: http://www.instagram.com/helenehargaard
+  email: hhh@pgaa.dk
   image: helene.jpg
   tag: junior
 
@@ -43,5 +49,6 @@
   title: Juniortræner
   website: http://www.kasperwolf.dk
   instagram: http://www.instagram.com/kasperwolf
+  email: kw@pgaa.dk
   image: kasper-wolf.jpg
   tag: junior
