@@ -1,6 +1,12 @@
 language: ruby
 rvm:
-  - 2.1
+  - 2.2
+matrix:
+  allow_failures:
+    - 2.1
+    - jruby
+    - rbx-2
+  fast_finish: true
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --assume-extension --check-favicon --check-html
