@@ -27,8 +27,8 @@
 		_slider_delay			= 0, //4000,
 
 		// GOOGLE MAP
-		$googlemap_latitude 	= 56.1555372,
-		$googlemap_longitude	= 10.1794537,
+		$googlemap_latitude 	= 56.154519,
+		$googlemap_longitude	= 10.1570003,
 		$googlemap_zoom			= 13,
 
 		// @CONTACT FORM - TRANSLATE OR EDIT
