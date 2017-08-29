@@ -819,3 +819,18 @@ jQuery("#newsletter-subscribe").bind("click", function(e) {
 	}, function(){
 		jQuery(this).siblings().removeClass('faded');
 	});
+
+	$(document).euCookieLawPopup().init({
+		cookiePolicyUrl : 'http://performancegymaarhus.dk/privatlivspolitik',
+		popupPosition : 'bottom',
+		colorStyle : 'default',
+		compactStyle : false,
+		popupTitle : 'Dette website bruger cookies',
+		popupText : 'Vi bruger cookies for at du får den bedste oplevelse af vores website. Hvis du fortsætter, så går vi ud fra, at du også elsker småkager.',
+		buttonContinueTitle : 'Fortsæt',
+		buttonLearnmoreTitle : 'Se mere',
+		buttonLearnmoreOpenInNewWindow : true,
+		agreementExpiresInDays : 30,
+		autoAcceptCookiePolicy : false,
+		htmlMarkup : null
+	});
