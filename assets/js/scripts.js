@@ -820,7 +820,7 @@ jQuery("#newsletter-subscribe").bind("click", function(e) {
 		jQuery(this).siblings().removeClass('faded');
 	});
 
-	$(document).euCookieLawPopup().init({
+	jQuery(document).euCookieLawPopup().init({
 		cookiePolicyUrl : 'http://performancegymaarhus.dk/privatlivspolitik',
 		popupPosition : 'bottom',
 		colorStyle : 'default',
