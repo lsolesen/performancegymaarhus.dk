@@ -4,7 +4,7 @@
   website: http://www.casperjespersen.dk
   facebook: https://www.facebook.com/casperjespersendk
   email: cj@performancegym.dk
-  image: casper-jespersen.jpg
+  image: assets/images/pt/casper-jespersen.jpg
   tag: senior
 
 - name: Birgitte Larsen
@@ -13,14 +13,14 @@
   website: http://www.birgittelarsen.dk
   facebook: https://www.facebook.com/birgittelarsendk
   email: bml@performancegym.dk
-  image: birgitte-larsen.jpg
+  image: assets/images/pt/birgitte-larsen.jpg
   tag: senior
 
 - name: Anne-Kathrine Østergaard
   title: Juniortræner
   instagram: http://www.instagram.com/annekathrineoestergaard
   email: ak@pgaa.dk
-  image: anne-kathrine.jpg
+  image: assets/images/pt/anne-kathrine.jpg
   tag: junior
 
 - name: Jannik Friis
@@ -29,7 +29,7 @@
   instagram: http://www.instagram.com/personligtraeneraarhus
   facebook: https://www.facebook.com/pt.jannikfriis/
   email: jf@pgaa.dk
-  image: jannik.jpg
+  image: assets/images/pt/jannik.jpg
   tag: junior
 
 - name: Anja Lambek
@@ -37,26 +37,33 @@
   website: http://anjalambek.dk
   instagram: http://www.instagram.com/anjalambek
   email: al@pgaa.dk
-  image: anja-lambek.jpg
+  image: assets/images/pt/anja-lambek.jpg
   tag: junior
 
 - name: Jacob Strøm
   title: Juniortræner
   website: http://jacobstroem.com
   instagram: http://www.instagram.com/jacobstroem
-  image: jacob-stroem.jpg
+  image: assets/images/pt/jacob-stroem.jpg
   tag: junior
 
 - name: Mads Melballe
   title: Juniortræner
   email: mm@pgaa.dk
   instagram: http://www.instagram.com/madsmelball
-  image: mads-melballe.jpg
+  image: assets/images/pt/mads-melballe.jpg
   tag: junior
 
 - name: Anders Rosendal
   title: Juniortræner
   email: AR@pgaa.dk
   instagram: http://www.instagram.com/a.rosendall
-  image: rosendall.jpg
+  image: assets/images/pt/rosendall.jpg
+  tag: junior
+
+- name: Anna Jacobsen
+  title: Juniortræner
+  email: AJ@pgaa.dk
+  instagram: http://www.instagram.com/annabjacobsen
+  image: https://user-images.githubusercontent.com/148026/36944181-34fe5f0e-1f97-11e8-9825-bb32eb1d9b6e.jpeg
   tag: junior
