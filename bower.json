@@ -20,7 +20,7 @@
     "masonry": "~3.2.2",
     "isotope": "~2.1.0",
     "superslides": "~0.6.2",
-    "owl-carousel": "~1.3.2",
+    # "owl-carousel": "~1.3.2", # does not work anymore
     "modernizr": "~2.8.3",
     "html5shiv": "~3.7.2",
     "respond": "~1.4.2",
