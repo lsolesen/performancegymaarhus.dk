@@ -1,4 +1,10 @@
-# Development
+# Official website for [performancegymaarhus.dk](http://performancegymaarhus.dk)
+
+## Hosting
+
+The site is hosted on [netlify.com](http://netlify.com)
+
+## Development
 
 Clone the project and then go to the directory. Then do
 
