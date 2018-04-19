@@ -16,11 +16,18 @@ exclude:
   - "vendor"
   - "node_modules"
 
+# Pages as collections
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
 # Build settings
 kramdown:
   input: GFM
   parse_block_html: true
   remove_block_html_tags: true
 
+# Sass
 sass:
   style: compressed
