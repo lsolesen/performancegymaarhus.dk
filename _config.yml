@@ -1,7 +1,7 @@
 # Site settings
 title: Performance Gym PT
-email: <a href="mailto:aarhus@performancegym.dk">aarhus@performancegym.dk</a>
-phone: <a href="tel:27510788">+45 2751 0788</a>
+email: aarhus@performancegym.dk
+phone: +45 2751 0788
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
