@@ -2,14 +2,14 @@
   prices:
     - 7.500 kr (10 uger)
     - 14.000 kr (20 uger)
-    - 30.000 kr (45 uger)
+    - 26.600 kr (40 uger)
   tag: senior
 
 - package: 2 gange om ugen
   prices:
     - 12.000 kr (10 uger)
     - 23.200 kr (20 uger)
-    - 50.400 kr (45 uger)
+    - 44.800 kr (40  uger)
   tag: senior
 
 - package: 3 gange om ugen
@@ -17,14 +17,14 @@
   prices:
     - 16.200 kr (10 uger)
     - 32.400 kr (20 uger)
-    - 70.875 kr (45 uger)
+    - 63.000 kr (40 uger)
   tag: senior
 
 - package: 4 gange om ugen
   prices:
     - 20.400 kr (10 uger)
     - 40.000 kr (20 uger)
-    - 90.000 kr (45 uger)
+    - 76.000 kr (40 uger)
   tag: senior
 
 - package: 1 gang om ugen
