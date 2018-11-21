@@ -7,51 +7,51 @@
 
 - package: 2 gange om ugen
   prices:
-    - 12.000 kr (10 uger)
-    - 23.200 kr (20 uger)
-    - 44.800 kr (40  uger)
+    - 14.000 kr (10 uger)
+    - 26.000 kr (20 uger)
+    - 48.000 kr (40  uger)
   tag: senior
 
 - package: 3 gange om ugen
   class: popular
   prices:
-    - 16.200 kr (10 uger)
-    - 32.400 kr (20 uger)
-    - 63.000 kr (40 uger)
+    - 19.500 kr (10 uger)
+    - 36.000 kr (20 uger)
+    - 66.000 kr (40 uger)
   tag: senior
 
 - package: 4 gange om ugen
   prices:
-    - 20.400 kr (10 uger)
-    - 40.000 kr (20 uger)
-    - 76.000 kr (40 uger)
+    - 24.000 kr (10 uger)
+    - 44.000 kr (20 uger)
+    - 80.000 kr (40 uger)
   tag: senior
 
 - package: 1 gang om ugen
   prices:
-    - 6.300 kr (10 uger)
-    - 11.800 kr (20 uger)
-    - 25.200 kr (45 uger)
+    - 6.500 kr (10 uger)
+    - 12.000 kr (20 uger)
+    - 22.000 kr (45 uger)
   tag: junior
 
 - package: 2 gang om ugen
   prices:
-    - 10.100 kr (10 uger)
-    - 19.500 kr (20 uger)
-    - 43.200 kr (45 uger)
+    - 12.000 kr (10 uger)
+    - 22.000 kr (20 uger)
+    - 40.000 kr (40 uger)
   tag: junior
 
 - package: 3 gang om ugen
   class: popular
   prices:
-    - 13.600 kr (10 uger)
-    - 26.700 kr (20 uger)
-    - 57.375 kr (45 uger)
+    - 16.500 kr (10 uger)
+    - 30.000 kr (20 uger)
+    - 54.000 kr (40 uger)
   tag: junior
 
 - package: 4 gang om ugen
   prices:
-    - 17.150 kr (10 uger)
-    - 33.600 kr (20 uger)
-    - 74.250 kr (45 uger)
+    - 20.000 kr (10 uger)
+    - 36.000 kr (20 uger)
+    - 64.000 kr (40 uger)
   tag: junior
