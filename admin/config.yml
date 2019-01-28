@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: lsolesen/performancegymaarhus.dk
+  branch: gh-pages # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+slug:
+  encoding: "ascii"
+  clean_accents: true
+collections:
+  - name: "pages"
+    label: "Pages"
+    files: 
+      - file: "_data/pts.yml"
+        name: "pts"
+        label: "Personal Trainers"
+        format: yaml
+        extension: yml
+        fields:
+          - label: "Trainers"
+            name: "pts"
+            widget: list
+            allow_add: true
+            fields:
+              - label: Trainers
+                name: pt
+                widget: object
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Title", name: "title", widget: "select", options: ["Juniortræner", "Seniortræner"]}
+                  - {label: "Image", name: "image", widget: "string", default: "/assets/images/authors/default-profile.png"}
+                  - {label: "Instagram", name: "instagram", widget: "string", required: false}
+                  - {label: "Email", name: "email", widget: "string", required: false}
+                  - {label: "Tag", name: "tag", widget: "string"}
