@@ -14,7 +14,7 @@ collections:
       preview: false
     files: 
       - file: "_data/pts.yml"
-        name: "pts"
+        name: "trainers"
         label: "Personal Trainers"
         format: yaml
         extension: yml
