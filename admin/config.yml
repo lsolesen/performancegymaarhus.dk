@@ -21,12 +21,12 @@ collections:
         fields:
           - label: "Trainers"
             label_singular: "Trainer"
-            name: "trainer"
+            name: "trainers"
             widget: list
             allow_add: true
             fields:
               - label: Trainer
-                name: pt
+                name: trainer
                 widget: object
                 fields:
                   - {label: "Name", name: "name", widget: "string"}
