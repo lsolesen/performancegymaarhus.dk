@@ -8,13 +8,14 @@ slug:
   encoding: "ascii"
   clean_accents: true
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
     files: 
       - file: "_data/pts.yml"
         name: "pts"
         label: "Personal Trainers"
-        preview: false
         format: yaml
         extension: yml
         fields:
