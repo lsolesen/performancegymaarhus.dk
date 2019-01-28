@@ -14,6 +14,7 @@ collections:
       - file: "_data/pts.yml"
         name: "pts"
         label: "Personal Trainers"
+        preview: false
         format: yaml
         extension: yml
         fields:
@@ -22,7 +23,6 @@ collections:
             name: "pts"
             widget: list
             allow_add: true
-            preview: false
             fields:
               - label: Trainer
                 name: pt
