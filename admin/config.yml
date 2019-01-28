@@ -32,7 +32,7 @@ collections:
                   - {label: "Title", name: "title", widget: "string", default: "Juniortræner"}
                   - {label: "Image", name: "image", widget: "image", default: "/assets/images/default-profile.png"}
                   - {label: "Tag", name: "tag", widget: "select", options: ["senior", "junior"]}
-                  - {label: "Website", name: "instagram", widget: "string", required: false}
+                  - {label: "Website", name: "website", widget: "string", required: false}
                   - {label: "Instagram", name: "instagram", widget: "string", required: false}
-                  - {label: "Facebook", name: "instagram", widget: "string", required: false}
+                  - {label: "Facebook", name: "facebook", widget: "string", required: false}
                   - {label: "Email", name: "email", widget: "string", required: false}
