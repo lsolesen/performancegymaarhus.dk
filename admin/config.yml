@@ -28,7 +28,7 @@ collections:
                 widget: object
                 fields:
                   - {label: "Name", name: "name", widget: "string"}
-                  - {label: "Title", name: "title", widget: "select", options: ["Juniortræner", "Seniortræner"]}
+                  - {label: "Title", name: "title", widget: "string", default: "Juniortræner"}
                   - {label: "Image", name: "image", widget: "image", default: "/assets/images/default-profile.png"}
                   - {label: "Tag", name: "tag", widget: "select", options: ["senior", "junior"]}
                   - {label: "Website", name: "instagram", widget: "string", required: false}
