@@ -14,14 +14,14 @@ collections:
       preview: false
     files: 
       - file: "_data/pts.yml"
-        name: "trainers"
+        name: "pts"
         label: "Personal Trainers"
         format: yaml
         extension: yml
         fields:
           - label: "Trainers"
             label_singular: "Trainer"
-            name: "pts"
+            name: "trainer"
             widget: list
             allow_add: true
             fields:
