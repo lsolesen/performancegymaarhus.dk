@@ -85,7 +85,6 @@ pts:
       email: cj@performancegym.dk
       image: /assets/images/pt/casper-jespersen.jpg
       tag: senior
-  
   - pt:  
       name: Birgitte Larsen
       title: Ejer og seniortræner
@@ -111,7 +110,6 @@ pts:
       email: jf@pgaa.dk
       image: /assets/images/pt/jannik-friis.jpg
       tag: junior
-    
   - pt:
       name: Anja Lambek
       title: Juniortræner
@@ -120,7 +118,6 @@ pts:
       email: al@pgaa.dk
       image: /assets/images/pt/anja-lambek.jpg
       tag: junior
-    
   - pt:
       name: Jacob Strøm
       title: Juniortræner
@@ -128,7 +125,6 @@ pts:
       instagram: http://www.instagram.com/jacobstroem
       image: /assets/images/pt/jacob-stroem.jpg
       tag: junior
-    
   - pt:
       name: Mads Melballe
       title: Juniortræner
@@ -136,7 +132,6 @@ pts:
       instagram: http://www.instagram.com/madsmelball
       image: /assets/images/pt/mads-melballe.jpg
       tag: junior
-    
   - pt:
       name: Anna Jacobsen
       title: Juniortræner
@@ -144,14 +139,12 @@ pts:
       instagram: http://www.instagram.com/annabjacobsen
       image: https://user-images.githubusercontent.com/148026/36944181-34fe5f0e-1f97-11e8-9825-bb32eb1d9b6e.jpeg
       tag: junior
-    
   - pt:
       name: Sara Duesund
       title: Juniortræner
       email: sd@pgaa.dk
       image: https://user-images.githubusercontent.com/148026/39009507-23371fc4-440c-11e8-87d1-05b78099e700.jpeg
       tag: junior
-    
   - pt:
       name: Rasmus Breinholt
       title: Juniortræner
