@@ -1,8 +1,3 @@
-trainer:
-  - pt:
-      email: cj@performancegym.dk
-      facebook: 'https://www.facebook.com/casperjespersendk'
-      name: Casper Jespersen
-      tag: senior
-      title: Ejer og seniortræner
-      website: 'http://www.casperjespersen.dk'
+trainers:
+  - trainer:
+      name: Cast
