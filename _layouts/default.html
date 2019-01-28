@@ -28,29 +28,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- CORE CSS FRAMEWORK -->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link href="assets/plugins/font-linecons/linecons.css" rel="stylesheet" type="text/css" />
+  <link href="{{ "/assets/plugins/font-linecons/linecons.css" | relative_url }}" rel="stylesheet" type="text/css" />
 
   <!-- PLUGINS -->
-  <link href="assets/css/superslides.css" rel="stylesheet" type="text/css" />
-  <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+  <link href="{{ "/assets/css/superslides.css" | relative_url }}" rel="stylesheet" type="text/css" />
+  <link href="{{ "/assets/css/owl.carousel.css" | relative_url }}" rel="stylesheet" type="text/css" />
   <link href="//raw.githubusercontent.com/wimagguc/jquery-eu-cookie-law-popup/master/css/jquery-eu-cookie-law-popup.css" rel="stylesheet" type="text/css" />
 
   <!-- CSS TEMPLATE -->
-  <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
-  <link href="assets/css/framework.css" rel="stylesheet" type="text/css" />
-  <link href="assets/css/typography.css" rel="stylesheet" type="text/css" />
-  <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+  <link href="{{ "/assets/css/reset.css" | relative_url }}" rel="stylesheet" type="text/css" />
+  <link href="{{ "/assets/css/framework.css" | relative_url }}" rel="stylesheet" type="text/css" />
+  <link href="{{ "/assets/css/typography.css" | relative_url }}" rel="stylesheet" type="text/css" />
+  <link href="{{ "/assets/css/layout.css" | relative_url }}" rel="stylesheet" type="text/css" />
 
   <!-- ICONS -->
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon.png" | relative_url }}" type="image/x-icon" />
+  <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url }}" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url }}" type="image/x-icon" />
 
   <!-- mobile settings -->
   <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
 
   <!-- Morenizr -->
-  <script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
+  <script type="text/javascript" src="{{ "/assets/plugins/modernizr.min.js" | relative_url }}"></script>
 
 </head>
 
@@ -78,8 +78,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           
-          <a href="http://performancegymaarhus.dk/">
-            <img src="//performancegymaarhus.dk/assets/images/pg-logo.png" alt="PerformanceGym Århus" style="padding-top: 5px; float: left;">
+          <a href="{{ site.url }}">
+            <img src="{{ "/assets/images/pg-logo.png" | relative_url }}" alt="PerformanceGym Århus" style="padding-top: 5px; float: left;">
           </a>
             <!--
                   Span class:
@@ -93,7 +93,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 -->
             <span class="navbar-header">
               <div style="float: left; width: 100%; /* float: right; */ padding-top: 18px; padding-left: 10px;">
-              <a href="http://performancegymaarhus.dk/" style="color: white;">{{ site.title }}</a>
+              <a href="{{ site.url }}" style="color: white;">{{ site.title }}</a>
               </div>
             </span>
           
@@ -148,15 +148,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js"></script>
-  <script type="text/javascript" src="assets/js/masonry.js"></script>
+  <script type="text/javascript" src="{{ "/assets/js/masonry.js" | relative_url }}"></script>
 
   <!-- PLUGINS -->
-  <script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.superslides.min.js"></script>
-  <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="{{ "/assets/plugins/jquery-appear/jquery.appear.js" | relative_url }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/jquery.superslides.min.js" | relative_url }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/owl.carousel.min.js" | relative_url }}"></script>
   <script type="text/javascript" src="//raw.githubusercontent.com/wimagguc/jquery-eu-cookie-law-popup/master/js/jquery-eu-cookie-law-popup.js"></script>
 
   <!-- js scripts -->
-  <script async type="text/javascript" src="assets/js/scripts.js"></script>
+  <script async type="text/javascript" src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
 </body>
 </html>
