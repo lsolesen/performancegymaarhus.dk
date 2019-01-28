@@ -22,6 +22,7 @@ collections:
             name: "pts"
             widget: list
             allow_add: true
+            preview: false
             fields:
               - label: Trainer
                 name: pt
