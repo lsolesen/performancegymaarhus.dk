@@ -25,7 +25,7 @@ collections:
             widget: list
             allow_add: true
             fields:
-              - label: Trainer
+              - label: "Trainer"
                 name: pt
                 widget: object
                 fields:
