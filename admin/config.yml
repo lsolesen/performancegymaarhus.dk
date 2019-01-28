@@ -22,13 +22,15 @@ collections:
             widget: list
             allow_add: true
             fields:
-              - label: Trainers
+              - label: Trainer
                 name: pt
                 widget: object
                 fields:
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Title", name: "title", widget: "select", options: ["Juniortræner", "Seniortræner"]}
-                  - {label: "Image", name: "image", widget: "string", default: "/assets/images/authors/default-profile.png"}
+                  - {label: "Image", name: "image", widget: "image", default: "/assets/images/default-profile.png"}
+                  - {label: "Tag", name: "tag", widget: "select", options: ["senior", "junior"]}
+                  - {label: "Website", name: "instagram", widget: "string", required: false}
                   - {label: "Instagram", name: "instagram", widget: "string", required: false}
+                  - {label: "Facebook", name: "instagram", widget: "string", required: false}
                   - {label: "Email", name: "email", widget: "string", required: false}
-                  - {label: "Tag", name: "tag", widget: "string"}
