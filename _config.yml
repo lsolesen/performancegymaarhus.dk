@@ -1,6 +1,7 @@
 # Site settings
 title: Performance Gym PT
 email: aarhus@performancegym.dk
+url: https://performancegymaarhus.dk
 phone: +45 2751 0788
 phone_html: +4527510788
 description: > # this means to ignore newlines until "baseurl:"
