@@ -18,6 +18,7 @@ collections:
         extension: yml
         fields:
           - label: "Trainers"
+            label_singular: "Trainer"
             name: "pts"
             widget: list
             allow_add: true
