@@ -3,7 +3,7 @@ backend:
   repo: lsolesen/performancegymaarhus.dk
   branch: gh-pages # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
 slug:
   encoding: "ascii"
   clean_accents: true
