@@ -6,3 +6,9 @@ pts:
       name: Casper Jespersen
       tag: senior
       title: Seniortræner
+  - pt:
+      email: bml@performancegym.dk
+      image: assets/images/pt/birgitte-larsen.jpg
+      instagram: 'http://www.instagram.com/birgittelarsendk'
+      name: Birgitte Larsen
+      tag: senior
