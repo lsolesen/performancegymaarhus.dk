@@ -1,5 +1,6 @@
 <div class="me-picture text-center animate_fade_in">
-  {% for pt in site.data.pts %}
+  {% for pttemp in site.data.pts.pts %}
+  {% assign pt = pttemp.pt %}
   {% if include.tag contains pt.tag %}
   <!-- ITEM -->
   <div class="item">
