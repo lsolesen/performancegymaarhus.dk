@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "setup": "npm install && bundle install",
-    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete",
+    "start": "jekyll server --port 8080 --incremental"
   },
   "dependencies": {
     "gulp": "~3.9.0"
